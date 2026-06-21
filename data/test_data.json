@@ -1,0 +1,13 @@
+{
+  "new_user": {
+    "name": "Ananya",
+    "username": "janedoe",
+    "email": "janedoe@example.com"
+  },
+
+  "updated_user": {
+    "name": "Asha",
+    "username": "ash",
+    "email": "asha@gmail.com"
+  }
+}
