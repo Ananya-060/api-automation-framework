@@ -1,24 +1,3 @@
-name: Regression suite
-
-on:
-  push:
-    branch:
-       -main
-
-  pull_request:
-       -main
-
-  schedule:
-       -cron: '30 2 * * *'
-
-jobs:
-    run-tests:
-       run-on:ubuntu-latest
-    steps:
-    -name: Checkout code
-     uses: action/checkout@v4
-
-    -name: Setup Python
 name: Regression Suite
 
 on:
@@ -60,7 +39,3 @@ jobs:
         with:
           name: pytest-report
           path: reports/
-
-        
-     
-    
