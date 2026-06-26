@@ -18,6 +18,7 @@ The framework follows a modular structure that separates test logic, test data, 
 * Pytest Fixtures
 * Dynamic Test Data Generation
 * Automated HTML Reports
+* Jenkins Integration
 
 ## Project Structure
 
@@ -46,6 +47,8 @@ api-automation-framework/
 * Requests
 * Pytest HTML
 * JSON
+* Github Actions
+* Jenkins
 
 ## Test Coverage
 
@@ -72,14 +75,14 @@ pytest -v
 * Reusable API Methods
 * Assertions and Validations
 * HTML Reporting
+* GitHub Actions
+* Jenkins Integration
 
 ## Future Enhancements
 
 * Authentication Testing
 * Logging
 * CI/CD Integration
-* GitHub Actions
-* Jenkins Integration
 * Environment Management
 
 ## Author
